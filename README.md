@@ -1,6 +1,6 @@
 # Gulp scaffold with ES6, Browserify and Babel as well as jQuery, Sass baked in.
 This is a gulp work-flow / scaffold that I often use that lets you to build ES6 projects using ES6 Export/Import modules.
-It also has examples of how you can create moduler render components and inject them in to the dom much like you would in React or Vue. 
+It also has examples of how you can create moduler render components and inject them into the dom much like you would in React or Vue. 
 
 Uses the following gulp packages
 
@@ -34,7 +34,7 @@ run the gulp file
 gulp dev     -- To stop server, press CTRL+C
 ```
 ```
-gulp dev     -- build for production (no server)
+gulp     -- build for production (no server)
 ```
 
 ## Write some kick-ass code! 
