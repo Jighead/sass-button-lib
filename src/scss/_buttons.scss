@@ -1,0 +1,56 @@
+// Common Colors
+
+$off-wht: rgba(white,.4);
+
+// Button Base Styles
+
+%btn { // this is our base button class
+	display: inline-block;
+	margin: 1rem; 
+	padding: .625rem .812rem;
+	border: 2px solid;
+	border-radius: .5rem;
+	color: #FFF;
+	font: bold .75em sans-serif;
+	text: {
+		transform: uppercase;
+		decoration: none;
+	}
+	transition: .3s;
+  cursor:pointer;
+}
+
+// Mixins
+@mixin btn-theme($btn-color) {
+	border-color: darken($btn-color, 10%); 
+	background-color: $btn-color;
+	&:hover {
+		border-color: darken($btn-color, 20%); 
+		background-color: darken($btn-color, 10%);
+	}
+	&:active {
+		border-color: darken($btn-color, 20%); 
+		background-color: darken($btn-color, 30%);
+	}
+	@extend %btn;
+}
+
+// Themes
+.btn-delete {
+	@extend %tidecrimson;
+}
+.btn-start {
+	@extend %blue;
+}
+.btn-order {
+	@extend %green;
+}
+.btn-submit {
+	@extend %palevioletred;
+}
+.btn-alert {
+	@extend %firebrick;
+}
+.btn-warning {
+	@extend %darkyellow;
+}
