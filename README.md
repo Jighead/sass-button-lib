@@ -1,6 +1,6 @@
 # Sass Button Theme library.
 
-SASS is documented! Enjoy
+Beacuse every project has buttons. The SASS is somewhat documented. Enjoy!
  
 ## usage
 
@@ -18,4 +18,4 @@ gulp dev     -- To stop server, press CTRL+C
 gulp     -- build for production (no server)
 ```
 
-## Use it in your next SASS project!
+## Change the button styles to your liking and use them in your next SASS project!
